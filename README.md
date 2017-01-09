@@ -1,0 +1,2 @@
+# etc
+stash for ~/etc
