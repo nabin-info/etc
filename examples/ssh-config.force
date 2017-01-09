@@ -1,0 +1,12 @@
+# if you specify this config on command line, you will not have to deal with 
+# a mismatched ~/.ssh/known_hosts key.  It may also bypass system known_hosts
+
+StrictHostKeyChecking no
+PasswordAuthentication yes
+GlobalKnownHostsFile /dev/null
+UserKnownHostsFile   /dev/null
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
+ConnectTimeout 10
