@@ -121,7 +121,7 @@ Boolean Capabilities
 Numeric Capabilities
 --------------------
 
- VAR-BOOLEAN                 | TERMINFO | TERMCAP | DESCRIPTION
+ VAR-NUMERIC                 | TERMINFO | TERMCAP | DESCRIPTION
 :--------------------------- |:-------- |:------- |:------------------------
 `columns`                    | `cols`   | `co`    | number of columns in a line
 `init_tabs`                  | `it`     | `it`    | tabs initially every # spaces
